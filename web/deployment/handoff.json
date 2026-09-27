@@ -1,0 +1,52 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-321-guilddues",
+  "version": 1,
+  "launchId": "98c3ec61-53c1-419e-bcea-bb4f0f9b1e1a",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Sepolia test toy; membership grants no off-chain rights or services. Deploy LaunchToken before GuildDues. GuildDues uses GILD and fixes the policy-resolved $owner as its immutable treasurer, the sole recipient of permissionless sweeps, with no admin powers. GuildDues requires no token balance at deployment and no initialization calls. The pool pairs GILD with native Sepolia ETH and has no hook. initialPrice is sqrtPriceX96; the deployer derives the effective opening price from policy when initialMarketCapWei is specified.",
+    "token": {
+      "name": "Guild",
+      "symbol": "GILD",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "GuildDues",
+        "constructorArgs": [
+          "$token",
+          "$owner"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x65f74cc513933a8cbadfd011bc4a3105b962a916c8eb7ab62f84d468f558941b",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0x11c1add8e0dd220294837fbf0fc65bdca75cc673",
+      "blockNumber": 11791669,
+      "creationCodeHash": "8edf0d76c5d5be6272bfa5c28599471f029dad5f9aed23761659c7e4d9a3dd6d"
+    },
+    {
+      "name": "GuildDues",
+      "txHash": "0x65f74cc513933a8cbadfd011bc4a3105b962a916c8eb7ab62f84d468f558941b",
+      "abiHash": "0409c8784dd297fde9ac6db1a2662142bd1a7568b571948169415f6639b665e9",
+      "address": "0xefe0dd83868fcb1856c6262ca4e8ebe237bcf51e",
+      "blockNumber": 11791669,
+      "creationCodeHash": "83e362aa5931cd5efe9d32ff47375aa4ce62a620790f47aba603347a7d044185"
+    }
+  ],
+  "sourceCommit": "fdae4f2291346ec7c0970027ef8a575a0aa65693",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "bd414bc0af5bb483b034a9ad1a90a75d43c8ddfbc1a264a0fe80728711c9ef8a"
+}

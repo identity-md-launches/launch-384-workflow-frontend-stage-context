@@ -1,0 +1,62 @@
+{
+  "readOnly": true,
+  "results": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "checkedAt": "2026-09-27T07:06:23.542Z",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x11c1add8e0dd220294837fbf0fc65bdca75cc673",
+          "codeBytes": 1784
+        },
+        {
+          "name": "GuildDues",
+          "address": "0xefe0dd83868fcb1856c6262ca4e8ebe237bcf51e",
+          "codeBytes": 2741
+        }
+      ],
+      "tokenBinding": true,
+      "result": "PASS"
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "checkedAt": "2026-09-27T07:06:23.735Z",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x11c1add8e0dd220294837fbf0fc65bdca75cc673",
+          "codeBytes": 1784
+        },
+        {
+          "name": "GuildDues",
+          "address": "0xefe0dd83868fcb1856c6262ca4e8ebe237bcf51e",
+          "codeBytes": 2741
+        }
+      ],
+      "tokenBinding": true,
+      "result": "PASS"
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "checkedAt": "2026-09-27T07:06:23.866Z",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x11c1add8e0dd220294837fbf0fc65bdca75cc673",
+          "codeBytes": 1784
+        },
+        {
+          "name": "GuildDues",
+          "address": "0xefe0dd83868fcb1856c6262ca4e8ebe237bcf51e",
+          "codeBytes": 2741
+        }
+      ],
+      "tokenBinding": true,
+      "result": "PASS"
+    }
+  ]
+}

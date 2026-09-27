@@ -1,0 +1,20 @@
+{
+  "sourceCommit": "fdae4f2291346ec7c0970027ef8a575a0aa65693",
+  "workspaceGitWritable": false,
+  "deliveryBranch": "guild-frontend",
+  "portableCommitBundle": "docs/guild-frontend.bundle",
+  "bundleIncludesItself": false,
+  "trackedTreeBytesBeforeThisReport": 2627400,
+  "trackedFilesBeforeThisReport": 94,
+  "exportBytesIncludingManifest": 562881,
+  "manifestAssetCount": 6,
+  "ignorePathBudget": {
+    "path": "web/.gitignore",
+    "budgetBytes": 512,
+    "actualBytes": 165
+  },
+  "dependencyOrCacheDirectoriesIncluded": false,
+  "symlinksIncluded": false,
+  "scope": "Only web/**, dist/** and docs/** added; original tracked files preserved",
+  "submissionLimitBytes": 8388608
+}

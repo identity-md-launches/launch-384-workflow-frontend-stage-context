@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-09-27T07:12:20.844Z",
+  "browser": "154.0.8037.0",
+  "exportManifestHash": "c268bf0eeda3e3dee2d525b1665e924437319cec59f14c3eca91525ef0699caf",
+  "mockedWalletAndRpc": true,
+  "urlPath": "/ipfs/test-guild/",
+  "checks": [
+    {
+      "name": "Static subpath, disconnected reads, empty roster, missing wallet guidance",
+      "result": "PASS",
+      "durationMs": 524
+    },
+    {
+      "name": "Unknown chain: switch, add exact handoff parameters, switch again",
+      "result": "PASS",
+      "durationMs": 634
+    },
+    {
+      "name": "Period selection, exact approval, confirmed join, allowance refresh, sweep and pagination",
+      "result": "PASS",
+      "durationMs": 1659
+    },
+    {
+      "name": "Stacking renewal, restart after lapse, exact lapse boundary and five-year guard",
+      "result": "PASS",
+      "durationMs": 2281
+    },
+    {
+      "name": "Insufficient GILD, connection rejection, wallet rejection and recovery",
+      "result": "PASS",
+      "durationMs": 1355
+    },
+    {
+      "name": "Simulation revert blocks signing; reverted receipt is not a success",
+      "result": "PASS",
+      "durationMs": 1406
+    },
+    {
+      "name": "RPC failure and recovery; missing code and token binding fail closed",
+      "result": "PASS",
+      "durationMs": 1682
+    },
+    {
+      "name": "Wallet chain/account events invalidate signing state",
+      "result": "PASS",
+      "durationMs": 419
+    },
+    {
+      "name": "Wallet changes during simulation prevent a signature request",
+      "result": "PASS",
+      "durationMs": 754
+    },
+    {
+      "name": "Tampered ABI is rejected before rendering transaction controls",
+      "result": "PASS",
+      "durationMs": 196
+    },
+    {
+      "name": "Desktop/mobile rendered review, keyboard, reflow, reduced motion and accessibility",
+      "result": "PASS",
+      "durationMs": 4527
+    },
+    {
+      "name": "Browser resources and console",
+      "result": "PASS",
+      "durationMs": 0
+    }
+  ],
+  "audits": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1100,
+      "violations": []
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "violations": []
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "height": 800,
+      "violations": []
+    },
+    {
+      "viewport": "tablet",
+      "width": 820,
+      "height": 1180,
+      "violations": []
+    }
+  ],
+  "screenshots": [
+    "docs/evidence/desktop.png",
+    "docs/evidence/mobile.png",
+    "docs/evidence/focus.png"
+  ],
+  "contrast": [
+    {
+      "selector": ".hero-copy",
+      "foreground": "rgb(104, 99, 90)",
+      "background": "rgb(245, 242, 235)",
+      "ratio": 5.33
+    },
+    {
+      "selector": ".membership .section-copy",
+      "foreground": "rgb(104, 99, 90)",
+      "background": "rgb(252, 250, 245)",
+      "ratio": 5.72
+    },
+    {
+      "selector": ".button.primary",
+      "foreground": "rgb(252, 250, 245)",
+      "background": "rgb(121, 59, 66)",
+      "ratio": 8
+    },
+    {
+      "selector": ".badge.active",
+      "foreground": "rgb(54, 84, 55)",
+      "background": "rgb(230, 236, 226)",
+      "ratio": 7.04
+    },
+    {
+      "selector": ".treasury .section-copy",
+      "foreground": "rgb(210, 216, 205)",
+      "background": "rgb(48, 61, 51)",
+      "ratio": 7.85
+    },
+    {
+      "selector": ".treasury .fine-print",
+      "foreground": "rgb(210, 216, 205)",
+      "background": "rgb(48, 61, 51)",
+      "ratio": 7.85
+    }
+  ],
+  "focusStops": [
+    {
+      "tag": "A",
+      "label": "Skip to membership",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "label": "GuildThe membership ledger",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "label": "Membership",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "label": "Roster",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "label": "Treasury",
+      "outline": "solid"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "0x1000…0001 · Disconnect ↗",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "label": "Explore membership ↓",
+      "outline": "solid"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Refresh state ↻",
+      "outline": "solid"
+    },
+    {
+      "tag": "SELECT",
+      "label": "1 period · 30 days2 periods · 60 days3 periods · 90 days4 pe",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "label": "0x1000000000000000000000000000000000000001 ↗",
+      "outline": "solid"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Renew membership →",
+      "outline": "solid"
+    },
+    {
+      "tag": "SUMMARY",
+      "label": "How do I get GILD?",
+      "outline": "solid"
+    }
+  ],
+  "consoleErrors": [],
+  "limitations": [
+    "No real transactions broadcast",
+    "No physical device or screen-reader session",
+    "200% text enlargement, not native browser zoom",
+    "Only Chromium tested"
+  ]
+}

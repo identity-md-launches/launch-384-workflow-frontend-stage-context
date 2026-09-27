@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-09-27T07:12:43.736Z",
+  "readOnly": true,
+  "mocked": false,
+  "consoleErrors": [],
+  "failedResponses": [],
+  "browser": "154.0.8037.0",
+  "block": "Onchain · Block 11,791,758",
+  "members": "0\nmembers recorded",
+  "accrued": "0\nGILD accrued",
+  "treasurer": "0x09EC38170E94532EDdB57c69DfC4F1fDCD0d4a60 ↗",
+  "result": "PASS",
+  "exportManifestHash": "c268bf0eeda3e3dee2d525b1665e924437319cec59f14c3eca91525ef0699caf"
+}
